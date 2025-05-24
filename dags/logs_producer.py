@@ -1,4 +1,3 @@
-import boto3.session
 from faker import Faker
 import logging
 from airflow import DAG
@@ -9,6 +8,7 @@ import boto3
 from utils import get_secret
 
 
+# Importing necessary libraries
 Faker = Faker()
 logger = logging.getLogger(__name__)
 
