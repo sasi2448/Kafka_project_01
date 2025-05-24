@@ -25,4 +25,4 @@ jobs:
             --delete
         env:
           S3_BUCKET: mwaa-prod-logs
-          S3_PATH: airflow/dags
+          S3_PATH: airflow
