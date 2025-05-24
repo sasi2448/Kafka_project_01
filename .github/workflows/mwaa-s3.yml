@@ -31,4 +31,4 @@ jobs:
             --delete
         env:
           AWS_S3_BUCKET: 'mwaa-prod-logs'
-          SOURCE_DIR: 'project025'
+          SOURCE_DIR: 'project025/'
