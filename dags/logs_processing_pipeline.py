@@ -140,7 +140,7 @@ dag = DAG(
 
 
 consum_logs_task = PythonOperator(
-    task_id = 'generate and produce logs',
+    task_id = 'consume_logs',
     python_callable= consume_index_log,
     dag = dag
 )
